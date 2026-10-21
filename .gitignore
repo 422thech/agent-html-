@@ -1,0 +1,10 @@
+# 浏览器临时配置可能包含本地会话信息，不属于项目源码。
+.preview-profile/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example

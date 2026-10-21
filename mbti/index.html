@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f5fc">
+<meta name="description" content="用48个日常问题，探索你的四种人格偏好。看看答案如何构成你的内在星图。">
+<title>内在星图 · 48题人格探索</title>
+<style>
+:root{--paper:#f7f5fc;--ink:#302b46;--muted:#6c657d;--purple:#68509b;--purple-dark:#513b80;--lilac:#e8dff5;--peach:#f7d9c4;--sage:#d9e9e1;--line:#ded7e9;--white:#fff;--shadow:0 24px 75px #49376a0b}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:30px}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei UI","PingFang SC","Noto Sans CJK SC",sans-serif;font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}button,input{font:inherit}button,a,label{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.46}a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--purple);outline-offset:5px}[hidden]{display:none!important}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.45}h2{font-size:28px;letter-spacing:-.6px}h3{font-size:19px}p{overflow-wrap:anywhere}button{border:0}.wrap{width:min(1120px,calc(100% - 64px));margin:auto}.muted{color:var(--muted)}.small{font-size:13px}.skip{position:fixed;left:20px;top:-80px;z-index:99;padding:12px 20px;background:white}.skip:focus{top:10px}.topbar{height:100px;display:flex;align-items:center;justify-content:space-between;gap:18px;border-bottom:1px solid var(--line)}.brand{display:inline-flex;gap:12px;align-items:center;font-size:19px;font-weight:700;letter-spacing:2px}.brand-mark{width:35px;height:35px;color:var(--purple)}.nav{display:flex;align-items:center;gap:30px;font-size:14px}.nav button{background:none;color:var(--muted);padding:10px 0}.nav button:hover{color:var(--purple)}.pill{font-size:12px;border:1px solid var(--line);border-radius:30px;padding:5px 13px;white-space:nowrap}.hero{display:grid;grid-template-columns:1.08fr 1fr;gap:30px;align-items:center;min-height:625px;padding:55px 0 50px}.intro-note{display:flex;gap:10px;align-items:center;color:var(--purple);font-size:14px;margin-bottom:24px}.intro-note:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--purple)}h1{font-size:clamp(38px,4.4vw,57px);font-weight:600;letter-spacing:-1.8px;line-height:1.35}.hero-copy>p{max-width:440px;margin:24px 0 29px;color:var(--muted);line-height:2}.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:50px;padding:13px 24px;border-radius:12px;background:var(--purple);color:white;font-size:15px;font-weight:600;transition:background .18s,transform .18s}.btn:hover:not(:disabled){background:var(--purple-dark);transform:translateY(-1px)}.btn.secondary{color:var(--purple);background:#ede7f5}.btn.secondary:hover{background:#e2d7ef}.btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}.button-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.hero-meta{margin-top:18px;font-size:12px;color:var(--muted);display:flex;gap:18px;flex-wrap:wrap}.hero-meta span{display:flex;align-items:center;gap:7px}.tiny-circle{width:5px;height:5px;display:inline-block;background:#a69bb9;border-radius:100%}.star-map{position:relative;aspect-ratio:1;max-width:485px;width:100%;margin:auto}.star-map>svg{width:100%;height:100%}.map-tag{position:absolute;font-size:12px;padding:6px 13px;border:1px solid #ffffffc9;border-radius:10px;background:#ffffffe0;box-shadow:0 5px 20px #47336809}.tag-one{top:14%;left:9%;transform:rotate(-7deg)}.tag-two{right:0;top:39%;transform:rotate(5deg)}.tag-three{bottom:15%;left:9%;transform:rotate(-5deg)}.map-caption{position:absolute;bottom:2%;text-align:center;width:100%;color:var(--muted);font-size:12px;letter-spacing:2px}.home-bottom{border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr 1fr;padding:33px 0;gap:45px}.feature{display:grid;grid-template-columns:32px 1fr;gap:12px}.feature svg{width:25px;height:25px;color:var(--purple);margin-top:3px}.feature h3{font-size:15px;margin-bottom:7px}.feature p{color:var(--muted);font-size:13px;line-height:1.9}.notice{font-size:12px;color:var(--muted);line-height:1.9}.page-footer{padding:24px 0 30px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:22px;align-items:center}.page-footer .notice{max-width:710px}.page-footer>span{white-space:nowrap;font-size:12px;color:var(--muted)}.method{margin:20px 0 40px;padding:25px 30px;background:#fff9;border:1px solid var(--line);border-radius:16px}.method summary{cursor:pointer;font-weight:600;padding:4px 0}.method p{font-size:14px;color:var(--muted);margin-top:14px}.quiz-shell{width:min(800px,100%);margin:45px auto 65px}.quiz-top{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);gap:15px}.progress{height:5px;border:0;width:100%;display:block;appearance:none;background:#e7e1ee;border-radius:30px;overflow:hidden;margin:14px 0 35px}.progress::-webkit-progress-bar{background:#e7e1ee}.progress::-webkit-progress-value{background:var(--purple);border-radius:30px}.progress::-moz-progress-bar{background:var(--purple);border-radius:30px}.quiz-card{background:white;border:1px solid #e8e2ef;border-radius:24px;padding:42px 44px;box-shadow:var(--shadow)}.question-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}.question-number{color:var(--purple);font-size:13px;font-weight:600}.question-hint{font-size:12px;color:var(--muted)}.question-heading{font-size:27px;line-height:1.65;min-height:90px;outline:none}.quiz-sub{margin:16px 0 23px;font-size:13px;color:var(--muted)}fieldset{padding:0;border:0;margin:0;min-width:0}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.choices{display:grid;gap:10px}.choice{position:relative;display:flex;align-items:center;gap:14px;min-height:56px;padding:12px 17px;border:1px solid var(--line);border-radius:11px;cursor:pointer;transition:background .15s,border-color .15s}.choice:hover{background:#faf8fd;border-color:#b7a3d3}.choice:has(input:checked){border-color:var(--purple);background:#f0eaf8;color:var(--purple-dark)}.choice:has(input:focus-visible){outline:3px solid var(--purple);outline-offset:3px}.choice input{appearance:none;flex:none;width:20px;height:20px;border-radius:50%;border:1.5px solid #a99bb9;margin:0;display:grid;place-content:center}.choice input:checked{border:6px solid var(--purple)}.choice-key{margin-left:auto;font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:5px;line-height:21px;width:22px;text-align:center}.quiz-controls{display:flex;justify-content:space-between;gap:14px;margin-top:29px}.quiz-tip{text-align:center;color:var(--muted);font-size:12px;margin:19px 0}.save-message{min-height:24px;color:var(--muted);font-size:12px;text-align:center}.result{padding:45px 0 65px}.result-head{display:flex;justify-content:space-between;gap:24px;align-items:center;margin-bottom:28px}.result-head h1{font-size:28px;letter-spacing:-.5px}.result-head p{font-size:13px;color:var(--muted);margin-top:5px}.result-layout{display:grid;grid-template-columns:360px 1fr;align-items:start;gap:30px}.portrait{position:sticky;top:25px;background:linear-gradient(145deg,#eee6f8,#f8e7dd);border-radius:24px;padding:31px 29px 27px;text-align:center;overflow:hidden;border:1px solid #e6dbef}.portrait .eyebrow{font-size:12px;color:#655475;letter-spacing:2px}.portrait .type-code{font-family:Georgia,"Times New Roman",serif;font-size:76px;letter-spacing:7px;font-weight:400;line-height:1.2;margin:12px 0 0}.portrait h2{font-size:23px;margin-top:3px}.portrait-art{height:190px;width:100%;display:block;margin:6px auto}.portrait-summary{font-size:14px;text-align:left;line-height:1.95;color:#594b68}.portrait-bottom{margin-top:23px;padding-top:16px;border-top:1px solid #b9a5c84a;display:flex;justify-content:space-between;font-size:11px;color:#685676;gap:12px}.portrait small{display:block;text-align:left;margin-top:15px;font-size:11px;color:#685676;line-height:1.8}.result-content{min-width:0}.section-head{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:21px}.section-head h2{font-size:24px}.result-section{padding:28px;background:white;border:1px solid #e9e3ef;border-radius:18px;margin-bottom:22px}.dimension{margin:0 0 24px}.dimension:last-child{margin-bottom:0}.dim-top{display:flex;justify-content:space-between;font-size:13px;gap:12px;margin-bottom:8px}.dim-label b{font-size:17px;margin-right:5px}.dim-bar{height:9px;border-radius:8px;background:var(--tone-soft,#ece5f4);position:relative;margin-bottom:7px}.dim-bar:after{content:"";position:absolute;left:50%;top:-3px;width:1px;height:15px;background:#92859d}.dim-fill{height:100%;background:var(--tone,var(--purple));border-radius:8px}.dim-percent{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}.dim-strength{font-size:11px;font-weight:400;background:#f2eef7;padding:3px 8px;border-radius:20px;color:#655478;white-space:nowrap}.explanation-intro{font-size:13px;color:var(--muted);margin-bottom:20px}.why-block{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}.why-block h3{font-size:16px;display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:10px}.why-block p{font-size:14px;color:var(--muted)}.evidence{padding:12px 15px;border-left:3px solid #d8c8eb;background:#f8f5fc;border-radius:0 8px 8px 0;margin:13px 0 0}.evidence blockquote{font-size:13px;margin:0 0 4px}.evidence figcaption{font-size:12px;color:var(--purple-dark)}.interpretation-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px 23px}.interpretation-grid h3{font-size:15px;margin-bottom:8px}.interpretation-grid p{font-size:14px;color:var(--muted)}.interpretation-grid .wide{grid-column:1/-1}.growth-list{margin:7px 0 0;padding-left:20px;color:var(--muted);font-size:14px}.growth-list li{padding:3px 0}.result-bottom{display:flex;justify-content:space-between;gap:12px;margin-top:24px}.balance-note{padding:13px 15px;border-radius:10px;background:#f4effa;color:#655078;font-size:13px;margin-bottom:21px}.toast{position:fixed;bottom:25px;left:50%;transform:translateX(-50%);z-index:100;max-width:calc(100% - 32px);padding:12px 22px;border-radius:12px;background:var(--ink);color:white;font-size:13px;box-shadow:0 8px 30px #302b4626}.dialog{width:min(450px,calc(100% - 32px));border:1px solid var(--line);border-radius:20px;padding:30px;color:var(--ink);box-shadow:var(--shadow)}.dialog::backdrop{background:#302b4655;backdrop-filter:blur(4px)}.dialog p{color:var(--muted);font-size:14px;margin:14px 0 24px}.dialog .button-row{justify-content:flex-end}.page-reveal{animation:appear .35s ease-out}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.map-caption{left:0}
+@media(min-width:1450px){.hero{min-height:690px}.star-map{max-width:520px}}
+@media(max-width:850px){.wrap{width:calc(100% - 40px)}.hero{gap:0;min-height:570px}.hero h1{font-size:40px}.hero-copy>p{font-size:14px}.home-bottom{gap:22px}.result-layout{grid-template-columns:295px 1fr;gap:20px}.portrait{padding:26px 22px}.portrait .type-code{font-size:62px}.result-section{padding:23px}.interpretation-grid{grid-template-columns:1fr}.result-head{align-items:flex-start}.result-head .button-row{justify-content:flex-end}}
+@media(max-width:640px){.wrap{width:calc(100% - 36px)}.topbar{height:78px}.brand{font-size:17px;gap:9px}.brand-mark{width:29px;height:29px}.nav{gap:16px;font-size:12px}.nav .pill{display:none}.hero{grid-template-columns:1fr;padding:43px 0 25px;min-height:0}.hero h1{font-size:42px;letter-spacing:-1px}.hero-copy>p{margin:20px 0 24px;max-width:100%;font-size:15px}.intro-note{margin-bottom:18px;font-size:13px}.star-map{max-width:350px;margin:20px auto 0}.map-tag{font-size:11px}.home-bottom{grid-template-columns:1fr;padding:28px 0;gap:24px}.feature{grid-template-columns:30px 1fr}.feature p{font-size:13px}.page-footer{display:block}.page-footer>span{display:block;margin-top:13px}.method{padding:20px}.quiz-shell{margin:27px auto 35px}.quiz-card{border-radius:18px;padding:25px 20px}.question-heading{font-size:23px;min-height:110px}.question-top{margin-bottom:18px}.question-hint{font-size:11px}.choice{min-height:58px}.choice-key{display:none}.quiz-controls .btn{padding:12px 19px}.quiz-tip{display:none}.save-message{margin-top:17px}.progress{margin-bottom:23px}.result{padding-top:29px}.result-head{display:block}.result-head .button-row{justify-content:flex-start;margin-top:17px}.result-layout{grid-template-columns:1fr;gap:23px}.portrait{position:relative;top:auto;max-width:420px;width:100%;margin:auto;padding:28px}.portrait .type-code{font-size:80px}.portrait-art{height:185px}.result-section{padding:24px 20px}.section-head h2{font-size:22px}.interpretation-grid{grid-template-columns:1fr;gap:23px}.result-head h1{font-size:25px}.result-bottom{flex-wrap:wrap}.result-head .btn{min-height:44px;padding:10px 16px;font-size:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+@media print{body{background:white}.topbar,.page-footer,.result-head .button-row,.result-bottom,.toast,.method{display:none!important}.wrap{width:100%}.result-layout{grid-template-columns:280px 1fr;gap:20px}.portrait{position:static;print-color-adjust:exact;-webkit-print-color-adjust:exact}.result-section,.why-block,.portrait{break-inside:avoid}.dim-bar,.dim-fill{print-color-adjust:exact;-webkit-print-color-adjust:exact}.result{padding:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<div class="wrap">
+ <header class="topbar">
+  <a class="brand" href="#" id="brand-home" aria-label="内在星图，返回首页"><svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 3C20 14 26 20 37 20C26 20 20 26 20 37C20 26 14 20 3 20C14 20 20 14 20 3Z" stroke="currentColor" stroke-width="1.8"/><circle cx="32" cy="7" r="2" fill="currentColor"/></svg>内在星图</a>
+  <nav class="nav" aria-label="主导航"><button id="about-btn">关于测试</button><span class="pill">一场与自己的对话</span></nav>
+ </header>
+ <main id="main">
+  <section id="home" aria-labelledby="home-heading">
+   <div class="hero">
+    <div class="hero-copy">
+     <div class="intro-note">48 个日常问题，发现你的内在偏好</div>
+     <h1 id="home-heading">每一种你，<br>都有自己的轨迹。</h1>
+     <p>你如何获得能量、看待世界、做出决定？<br>留一点时间给自己，让日常的选择，<br>连成一幅更清晰的内在星图。</p>
+     <div class="button-row"><button class="btn" id="start-btn">开始探索 <span aria-hidden="true">↗</span></button><button class="btn ghost" id="home-restart" hidden>重新开始</button></div>
+     <div class="hero-meta"><span><i class="tiny-circle" aria-hidden="true"></i>约 6–8 分钟</span><span><i class="tiny-circle" aria-hidden="true"></i>无需注册</span><span><i class="tiny-circle" aria-hidden="true"></i>答案仅保存在此浏览器</span></div>
+     <p id="resume-note" class="small" hidden></p>
+    </div>
+    <div class="star-map" aria-hidden="true">
+     <svg viewBox="0 0 500 500" fill="none">
+      <defs><radialGradient id="map-glow"><stop stop-color="#e5d7f1"/><stop offset="1" stop-color="#f7f5fc" stop-opacity="0"/></radialGradient><linearGradient id="petal" x1="130" y1="150" x2="360" y2="370" gradientUnits="userSpaceOnUse"><stop stop-color="#d4bee8"/><stop offset=".55" stop-color="#e4c9df"/><stop offset="1" stop-color="#f0c6a7"/></linearGradient></defs>
+      <circle cx="250" cy="250" r="246" fill="url(#map-glow)"/>
+      <g stroke="#c9bbd8" stroke-width=".8"><circle cx="250" cy="250" r="178"/><circle cx="250" cy="250" r="137" stroke-dasharray="3 7"/><ellipse cx="250" cy="250" rx="206" ry="90" transform="rotate(-35 250 250)"/><path d="M72 250H428M250 72V428" stroke-dasharray="2 8"/></g>
+      <path d="M250 145C300 81 375 153 322 225C411 240 369 350 298 319C292 413 184 393 196 315C115 352 73 246 165 225C117 149 204 99 250 145Z" fill="url(#petal)" stroke="#ffffffa3" stroke-width="2"/>
+      <path d="M250 145C231 207 227 234 196 315M322 225C267 219 246 236 165 225M298 319C271 276 263 266 250 145" stroke="#fff" stroke-opacity=".6" stroke-width="1"/>
+      <path d="M250 202C250 233 263 246 294 246C263 246 250 259 250 290C250 259 237 246 206 246C237 246 250 233 250 202Z" fill="#fff" fill-opacity=".9"/>
+      <g fill="#80619f"><circle cx="104" cy="148" r="4"/><circle cx="424" cy="213" r="4"/><circle cx="278" cy="425" r="3"/><circle cx="157" cy="402" r="3"/><circle cx="371" cy="120" r="3"/><circle cx="84" cy="310" r="2"/></g>
+      <g fill="#b58a65"><path d="M363 340L366 351L377 354L366 357L363 368L360 357L349 354L360 351Z"/><path d="M190 77L192 84L199 86L192 88L190 95L188 88L181 86L188 84Z"/></g>
+      <g font-family="Georgia,serif" font-size="15" fill="#7b6a8e"><text x="247" y="57">E</text><text x="443" y="255">N</text><text x="246" y="455">F</text><text x="42" y="255">P</text></g>
+     </svg>
+     <span class="map-tag tag-one">能量的方向</span><span class="map-tag tag-two">看世界的方式</span><span class="map-tag tag-three">你独有的节奏</span><span class="map-caption">你的答案，会慢慢连成星图</span>
+    </div>
+   </div>
+   <div class="home-bottom">
+    <div class="feature"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="14" cy="14" r="10"/><path d="M14 8V14L18 17"/></svg><div><h3>按直觉，选真实的自己</h3><p>想想平常的你，每道题都没有标准答案。</p></div></div>
+    <div class="feature"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M4 20V8M10 23V5M17 20V8M24 23V5"/><circle cx="4" cy="12" r="2" fill="var(--paper)"/><circle cx="10" cy="17" r="2" fill="var(--paper)"/><circle cx="17" cy="13" r="2" fill="var(--paper)"/><circle cx="24" cy="10" r="2" fill="var(--paper)"/></svg><div><h3>看见类型，也看见原因</h3><p>从四种偏好和实际回答，读懂结果的由来。</p></div></div>
+    <div class="feature"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M14 3L23 7V14C23 20 18 23 14 25C10 23 5 20 5 14V7L14 3Z"/><path d="M10 14L13 17L19 11"/></svg><div><h3>随时停下，回来继续</h3><p>进度自动保存在本机，你可以按自己的节奏完成。</p></div></div>
+   </div>
+  </section>
+  <section id="quiz" hidden aria-labelledby="question-heading">
+   <div class="quiz-shell">
+    <div class="quiz-top"><span id="progress-text">已回答 0 / 48</span><span>按你平常的状态回答</span></div>
+    <progress class="progress" id="progress" max="48" value="0" aria-label="答题进度"></progress>
+    <div class="quiz-card">
+     <div class="question-top"><span class="question-number" id="question-number">第 1 / 48 题</span><span class="question-hint">没有对错，只有偏好</span></div>
+     <h2 class="question-heading" id="question-heading" tabindex="-1"></h2>
+     <p class="quiz-sub" id="answer-help">这句话与你通常的状态有多接近？</p>
+     <fieldset aria-labelledby="question-heading" aria-describedby="answer-help"><legend class="sr-only">选择同意程度</legend><div class="choices" id="choices"></div></fieldset>
+     <div class="quiz-controls"><button class="btn ghost" id="prev-btn">上一题</button><button class="btn" id="next-btn" disabled>下一题 <span aria-hidden="true">→</span></button></div>
+    </div>
+    <p class="quiz-tip">可使用 Tab 和方向键选择，或按数字 1–5，再点击下一题。</p>
+    <p class="save-message" id="save-message" role="status" aria-live="polite">进度会自动保存，可随时离开后继续。</p>
+   </div>
+  </section>
+  <section id="result" class="result" hidden aria-labelledby="result-heading">
+   <div class="result-head"><div><h1 id="result-heading" tabindex="-1">你的内在星图</h1><p>48 个回答，描绘此刻更自然的你。</p></div><div class="button-row"><button class="btn secondary" id="download-btn">保存分享卡片</button><button class="btn ghost" id="print-btn">打印报告</button></div></div>
+   <div class="result-layout">
+    <aside class="portrait" id="portrait" aria-label="人格结果卡片"></aside>
+    <div class="result-content">
+     <section class="result-section" aria-labelledby="dimension-heading"><div class="section-head"><h2 id="dimension-heading">你的四种偏好</h2><span class="small muted">每个维度 12 题</span></div><div id="balance-note" class="balance-note" hidden></div><div id="dimension-chart"></div><p class="notice" style="margin-top:18px">比例表示本次答题的偏好位置，不是能力、准确率或人群排名。</p></section>
+     <section class="result-section" aria-labelledby="why-heading"><div class="section-head"><h2 id="why-heading">为什么是这个结果？</h2></div><p class="explanation-intro">以下解释来自你在每个维度的全部回答，并展示最多两条有代表性的原始选择。不同情境下，你也可能表现出另一侧偏好。</p><div id="why-content"></div></section>
+     <section class="result-section" aria-labelledby="reading-heading"><div class="section-head"><h2 id="reading-heading">如何理解这个类型</h2></div><p class="explanation-intro">以下是参考类型的一般描述，适合用来对照自己的经验。接近平分的维度，请同时参考另一侧的解读。</p><div id="interpretation" class="interpretation-grid"></div></section>
+     <details class="method"><summary>这份结果是怎样计算的？</summary><p>四个维度各 12 题。五档回答依次记为 −2、−1、0、1、2；每题根据预先标记的方向计入对应维度。正向题的同意偏向 E、S、T、J；反向题的同意偏向 I、N、F、P。每个维度累加值范围为 −24 到 +24，左侧比例 = 50 + 累加值 ÷ 48 × 100，另一侧补足 100%。展示比例四舍五入到整数。</p><p>未四舍五入的领先侧比例低于 60% 为“倾向较弱”，60% 至不足 75% 为“有一定倾向”，75% 及以上为“倾向较明显”。完全平分时没有证据选择任一侧，为完整展示 16 型文案，参考代码暂取 E、S、T、J 对应字母，并明确提示平分。此自编问卷未经过标准化效度验证。</p></details>
+     <div class="result-bottom"><button class="btn ghost" id="review-btn">回看与修改答案</button><button class="btn secondary" id="restart-btn">重新测试</button></div>
+    </div>
+   </div>
+  </section>
+  <details id="about" class="method"><summary>关于这次人格探索</summary><p>这是一份基于四种人格偏好的原创自我探索问卷，采用 MBTI 风格的 16 类型表达，并非官方 MBTI 测评。48 题覆盖能量方向、信息关注、决策方式与生活节奏四个维度。</p><p>请根据大多数时候的真实状态回答。答案与进度仅保存在当前浏览器，不会上传服务器；浏览器存储受限时仍可完成测试，但关闭页面后可能无法恢复。</p><p>测试用于自我探索，不是心理诊断；人格偏好可能随情境和时间变化。你可以用结果开启观察，也可以保留与描述不同的部分。</p></details>
+ </main>
+ <footer class="page-footer"><p class="notice">测试用于自我探索，不是心理诊断；人格偏好可能随情境和时间变化。<br>每个人都比四个字母更丰富。</p><span>内在星图 · 留一点时间给自己</span></footer>
+</div>
+<dialog id="restart-dialog" class="dialog" aria-labelledby="restart-title"><h2 id="restart-title" style="font-size:23px">开启一段新的探索？</h2><p>重新测试会清除当前的 48 题答案和结果。想保留这次结果，可以先保存分享卡片。</p><div class="button-row"><button class="btn ghost" id="cancel-restart" autofocus>保留当前进度</button><button class="btn" id="confirm-restart">重新开始</button></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<noscript><p style="padding:24px">本测试需要 JavaScript。请启用浏览器 JavaScript 后刷新页面。</p></noscript>
+<script id="mbti-core">
+/* 独立计分核心。direction +1：同意偏向该维度左字母；-1：反向计分。
+ * 所有维度各12题，正反各6题。采用交错顺序，避免同维度连答。 */
+globalThis.MBTI = (() => {
+ const banks = {
+  EI:[
+   ['参加不太熟悉的聚会时，我通常会主动找人聊天。',1],
+   ['忙碌一天后，我通常更想独处一会儿来恢复精力。',-1],
+   ['有一个新想法时，我喜欢先找人聊聊，让想法逐渐成形。',1],
+   ['周末空闲时，比起参加多人活动，我更愿意安排自己的时间。',-1],
+   ['加入一个新小组时，我往往会主动介绍自己。',1],
+   ['连续与人相处几小时后，即使很愉快，我也需要安静一会儿。',-1],
+   ['遇到开心的小事，我通常很快就想分享给别人。',1],
+   ['在讨论中，我习惯想清楚后再开口。',-1],
+   ['工作或学习告一段落时，和别人互动能让我重新有精神。',1],
+   ['认识新朋友时，我更喜欢先深入了解一两个人。',-1],
+   ['在热闹的集体活动中，我通常会越参与越有兴致。',1],
+   ['接到意外的电话时，我通常希望先通过文字了解来意。',-1]
+  ],
+  SN:[
+   ['学习一项新技能时，我喜欢先看具体示范，再自己尝试。',1],
+   ['接触一个新话题时，我会先想它与其他事物有什么联系。',-1],
+   ['向别人说明一件事时，我通常会按实际发生的顺序讲。',1],
+   ['看完一部电影后，我常会继续琢磨它隐含的主题。',-1],
+   ['选择新工具时，我更关注已经能用到的具体功能。',1],
+   ['做重复性的任务时，我常会冒出换一种做法的设想。',-1],
+   ['别人介绍计划时，我喜欢先了解明确的步骤和实例。',1],
+   ['读一段故事时，我很容易想象后续的多种发展。',-1],
+   ['回忆一次旅行时，我通常先想起地点、食物和具体见闻。',1],
+   ['面对新项目时，我常会先构想它将来可能变成什么样。',-1],
+   ['判断一个说法时，我倾向于先找可观察到的事实。',1],
+   ['比起照着现成案例做，我更愿意从一个概念尝试新的组合。',-1]
+  ],
+  TF:[
+   ['比较两个方案时，我通常先列出各自的利弊。',1],
+   ['作出影响他人的决定前，我会先想他们可能有什么感受。',-1],
+   ['朋友请我评价作品时，我倾向于先指出可以改进的地方。',1],
+   ['发生分歧时，我通常会先确认对方在意的是什么。',-1],
+   ['分配有限的资源时，我更习惯先确定一套统一标准。',1],
+   ['即使建议很实用，我也会在意它是否以体谅人的方式表达。',-1],
+   ['听到不同意见时，我通常先检查看法本身是否有道理。',1],
+   ['面对规则没有覆盖的情况，我会优先考虑当事人的具体处境。',-1],
+   ['需要给出反馈时，我通常会直接说明问题及其依据。',1],
+   ['团队作出选择时，我很在意成员是否觉得被理解。',-1],
+   ['需要在几个选项中取舍时，我习惯先设定比较指标。',1],
+   ['朋友向我倾诉烦恼时，我通常先回应情绪，再讨论怎么办。',-1]
+  ],
+  JP:[
+   ['有一段较长的假期时，我喜欢提前确定主要安排。',1],
+   ['周末没有必须完成的任务时，我喜欢到时再决定做什么。',-1],
+   ['面对截止日期，我更愿意提前分阶段完成任务。',1],
+   ['出游时，我喜欢为临时发现的地方调整原有路线。',-1],
+   ['同时处理几件事时，列出清单会让我更安心。',1],
+   ['开始一个个人项目时，我喜欢先试着做，再逐步确定计划。',-1],
+   ['等待一个安排确定下来时，我通常希望尽早得到明确答复。',1],
+   ['有多种可行选择时，我倾向于多保留一会儿选项。',-1],
+   ['一天开始前，我通常会先想好需要完成哪些事。',1],
+   ['做没有硬性时间要求的事情时，我更愿意跟着当时的兴致走。',-1],
+   ['完成一件事并把它从清单上划掉，会让我很满足。',1],
+   ['临时出现有趣的机会时，我通常愿意重新安排自己的时间。',-1]
+  ]
+ };
+ const dimensions = [
+  {key:'EI',name:'能量方向',left:'外向',right:'内向',tone:'#8063a7',soft:'#ebe2f3',descriptions:['你更偏好从互动和外部活动中获得能量，也可能通过交流整理想法。','你更偏好通过独处和内部思考恢复能量，也可能先想清楚再表达。']},
+  {key:'SN',name:'信息关注',left:'实感',right:'直觉',tone:'#458174',soft:'#dfeee7',descriptions:['你更关注可观察的事实、经验和具体步骤，通常希望信息能落到实际。','你更关注事物之间的联系、模式和可能性，通常愿意从整体设想出发。']},
+  {key:'TF',name:'决策方式',left:'思考',right:'情感',tone:'#aa684a',soft:'#f5e3d8',descriptions:['你作出判断时更习惯先比较依据、逻辑和一致的标准。','你作出判断时更习惯先考虑人的感受、价值和具体处境。']},
+  {key:'JP',name:'生活节奏',left:'判断',right:'知觉',tone:'#567aab',soft:'#e1e9f5',descriptions:['你更喜欢明确的安排、阶段进展和相对确定的节奏。','你更喜欢保留选择空间，在探索和变化中灵活调整节奏。']}
+ ];
+ const questions = Array.from({length:12},(_,i)=>dimensions.map(d=>({dim:d.key,text:banks[d.key][i][0],direction:banks[d.key][i][1]}))).flat();
+ const types = {
+  INTJ:{title:'远见的构想者',summary:'你可能喜欢独立梳理复杂的问题，把对未来的设想逐步转化为可行路径。清晰的方向和自主空间，往往让你更自在。',core:'独立思考、整体视角与长期规划常常一起出现。你可能更愿意理解系统为何如此运作，再决定如何改变它。',strengths:'能把零散信息组织成框架，发现结构上的问题，并持续推进长期目标。',blind:'过早相信自己的框架，可能忽略现场变化；表达结论过快，也可能让别人跟不上你的推理。',communication:'先说明目标和判断依据，同时留出讨论前提的空间；也可以主动询问对方看到的例外。',growth:['为重要计划安排一次小规模试验，再决定投入多少。','分享结论时补上推理过程，并询问他人的感受和顾虑。']},
+  INTP:{title:'好奇的思辨者',summary:'你可能享受追问原理，把熟悉的事物拆开重新理解。比起尽快收束，你往往更愿意给一个问题留出探索空间。',core:'内部思考、概念联系与逻辑分析构成你的探索方式，开放的过程能容纳尚未成形的想法。',strengths:'善于发现论证中的漏洞，提出替代解释，并从不同角度理解抽象问题。',blind:'持续追求完整解释可能推迟行动，也可能低估沟通细节和交付时间的重要性。',communication:'先给出当前最有用的结论，再补充限制条件；与别人确认需要的是探索还是决策。',growth:['把“继续想想”转成一个可以在半小时内验证的问题。','为开放式任务设置一个临时交付点，允许成果先不完美。']},
+  ENTJ:{title:'果断的推动者',summary:'你可能习惯通过交流明确方向，把目标、资源和行动连接起来。看见一个想法被组织成成果，会让你很有动力。',core:'面向外部行动，关注整体机会，用明确标准和计划推动进展。',strengths:'能够快速确定优先级，组织资源，并在复杂任务中保持目标感。',blind:'推进速度过快时，可能低估成员的接受过程，也容易把尚未讨论的目标当成共识。',communication:'说清方向、责任和决策依据，同时询问团队需要哪些支持；在定案前邀请不同意见。',growth:['作出关键决定前，让一位持不同意见的人完整说完。','把任务进展与成员状态放进同一次例行检查。']},
+  ENTP:{title:'灵活的探索者',summary:'你可能喜欢在对话中碰撞想法，看见常规之外的选择。新问题、新角度和可以试一试的空间，容易唤起你的兴致。',core:'通过互动探索可能性，用逻辑检验设想，同时保持对变化的开放。',strengths:'能迅速提出不同方案，挑战习以为常的前提，并在变化中寻找新路径。',blind:'频繁开启新方向可能分散收尾精力，轻松的辩论也可能被别人理解为否定。',communication:'先说明自己是在探索还是反对；提出新方向时，同时说明它对现有安排的影响。',growth:['从多个想法中选一个，给它设置清晰的完成条件。','辩论前先复述对方最在意的内容，确认自己理解准确。']},
+  INFJ:{title:'深思的引路者',summary:'你可能重视安静地理解人和事，在日常细节中寻找更长远的意义。一个与自身价值一致的方向，常让你愿意持续投入。',core:'倾向于内部梳理、整体理解与关注人的价值，并希望让想法形成稳定的行动。',strengths:'能把不同线索连成有意义的图景，留意他人的需要，并为有价值的目标持续付出。',blind:'对关系和未来的期待可能留在心里，别人未必知道；理想与现实有差距时也容易消耗自己。',communication:'把自己的期待说具体，并区分观察到的事实和对他人意图的推测。',growth:['把一个长期愿景拆成这周可以完成的一件小事。','明确说出自己的时间边界，不必等到精力耗尽才表达。']},
+  INFP:{title:'真诚的寻意者',summary:'你可能会留意一件事是否与内心认同相符，也愿意为不同的人生路径保留想象。能真实表达自己，是你很看重的体验。',core:'习惯向内感受，以可能性理解世界，并让价值与感受参与选择。',strengths:'能够细致理解不同立场，珍惜独特的表达，也愿意为认同的事情投入创造力。',blind:'等待合适的状态可能延迟开始；面对冲突时，未表达的需要可能积累成失落。',communication:'用一个具体场景说明自己的感受和需求，再提出对方能够回应的请求。',growth:['为喜欢的事情设定十分钟的起步动作。','在低风险的小事上练习表达不同意见和清晰的请求。']},
+  ENFJ:{title:'温暖的联结者',summary:'你可能愿意主动了解别人，让共同的方向变得清晰。看见一个人被支持、一个团队逐渐形成默契，常会带给你满足感。',core:'通过互动理解人，关注共同愿景与关系，并倾向于把合作安排落实。',strengths:'善于帮助不同的人建立联系，表达有感染力的目标，并协调共同的行动。',blind:'承担太多协调责任可能忽略自己的负担，也可能过早替别人判断他们需要什么。',communication:'在提出帮助前先询问需要；把个人感受与团队目标都表达清楚。',growth:['邀请别人自己说出目标，再讨论你能提供什么支持。','每周留一段不承担协调职责的休息时间。']},
+  ENFP:{title:'热忱的发现者',summary:'你可能很容易被新的可能性点亮，也喜欢把有意义的想法分享给别人。自由尝试和真实联结，常常是你行动的动力。',core:'面向互动和新联系，以价值与人的体验判断方向，并愿意随探索调整。',strengths:'能够发现别人的潜力，把不同想法联系起来，并为新尝试带来活力。',blind:'同时回应太多可能性容易分散精力，一时热情也可能超过实际可投入的时间。',communication:'分享愿景后，说明这次具体想做什么；答应他人前先确认自己的容量。',growth:['为新想法设置一个等待清单，只推进当下最重要的两个。','把有意义的目标配上一项简单、可重复的小习惯。']},
+  ISTJ:{title:'稳健的践行者',summary:'你可能更信赖具体经验与清晰安排，愿意认真把承诺落实。一个可靠的过程，往往比热闹的表达更让你安心。',core:'偏好安静思考，关注事实和一致标准，并通过有序行动保持稳定。',strengths:'能细致检查信息，保持工作的连续性，在明确职责下可靠地完成任务。',blind:'过度依赖熟悉流程时可能错过更合适的新方法，也可能默认别人同样看重规则。',communication:'说明事实、要求与时间安排，也解释这些要求的实际目的。',growth:['选择一个低风险流程，试着用不同方法完成一次。','在分工前确认彼此对“完成”的理解是否一致。']},
+  ISFJ:{title:'细心的守护者',summary:'你可能会记住人与日常中的具体需要，用持续而踏实的行动表达在意。明确的安排，也有助于你安心照顾重要的事情。',core:'内部梳理、具体观察与体谅他人相结合，倾向通过稳定的安排提供支持。',strengths:'能留意容易被忽略的细节，保持耐心，并让承诺得到持续的照顾。',blind:'习惯先满足他人可能让自身需要被推迟，也可能在变化发生时承担过多适应压力。',communication:'把已经做的支持和仍需的帮助说出来，给别人回应你的机会。',growth:['在答应额外请求前，先检查自己本周的精力安排。','面对改变时列出可以保留的部分，再尝试一个新步骤。']},
+  ESTJ:{title:'务实的组织者',summary:'你可能喜欢把事情说清、把责任分明，让合作按计划推进。具体进展和可靠结果，常常是你判断事情是否顺畅的依据。',core:'通过外部互动推进任务，依靠事实与标准，并偏好明确的安排。',strengths:'善于协调实际资源，界定责任，并把复杂工作分解成可执行的步骤。',blind:'熟悉的效率标准未必适用于所有场景，直接的要求也可能让别人感到缺少商量空间。',communication:'解释要求背后的原因，先确认困难，再一起明确下一步。',growth:['评价方案时，加入一项对成员体验的考虑。','当计划受阻时，先问哪里发生变化，再决定是否沿用原流程。']},
+  ESFJ:{title:'贴心的协调者',summary:'你可能喜欢让身边的人感到被照顾，也愿意把相处和合作安排妥当。具体的回应和稳定的联系，常让关系更有温度。',core:'主动联结，留意现实需要与关系体验，并希望合作有清晰可依的节奏。',strengths:'能快速发现实际需求，组织大家参与，并通过具体行动维持合作。',blind:'对和谐的期待可能让分歧被延后，也可能把别人的反馈过多地当作对自己的评价。',communication:'邀请别人表达不同需要；说明自己的期待时，给对方保留拒绝或调整的空间。',growth:['练习在关系友好的同时，说出一个真实的不同看法。','帮助别人后，给自己安排同样具体的恢复时间。']},
+  ISTP:{title:'冷静的拆解者',summary:'你可能更愿意亲自观察、动手试验，用实际反馈理解问题。自主的空间和灵活的做法，往往能让你发挥得更自然。',core:'独立观察具体事物，以逻辑分析原因，并根据现场变化调整行动。',strengths:'善于定位实际故障，在信息有限时做小范围验证，并保持应变能力。',blind:'专注解决眼前问题时，可能忽略长期协调；少量表达也可能让别人猜测你的想法。',communication:'简要说出观察、判断和下一步；即使还没确定，也可以分享当前进度。',growth:['在解决问题后，记录一个有助于下次避免重复的小结。','与合作伙伴约定固定的进度反馈点。']},
+  ISFP:{title:'自在的感受者',summary:'你可能珍惜直接而细腻的体验，也在意选择是否符合自己的感受。能按自己的节奏尝试和表达，会让你更容易投入。',core:'偏好内部感受、具体体验与个人价值，在行动中保持灵活。',strengths:'能够留意当下的细节，以自然具体的方式表达关心，并敏锐地感受体验差异。',blind:'不愿给别人添麻烦时，可能省略自己的需求；长期事务也容易被眼前感受暂时盖过。',communication:'从具体体验说起，直接说明喜欢、难受或希望调整的部分。',growth:['给一件重要但不紧急的事预留一个简短时间段。','为自己的偏好说出一个明确请求，不只等待别人发现。']},
+  ESTP:{title:'敏捷的行动者',summary:'你可能喜欢直接走进情境，通过行动获取信息。即时反馈、实际机会和与人的互动，常能让你迅速找到下一步。',core:'主动接触外部世界，关注当下事实，以实用逻辑灵活应对。',strengths:'能迅速察觉现场变化，调动可用资源，并在尝试中调整方案。',blind:'即时可见的收益可能压过长期成本，快速决定也可能让相关的人来不及跟上。',communication:'说明现在的机会和风险，并确认谁会受到这次行动影响。',growth:['作出快速承诺前，花一分钟检查最坏情况及退出方式。','为短期行动设置一次后续回顾，观察它的长期影响。']},
+  ESFP:{title:'鲜活的体验者',summary:'你可能愿意主动参与生活，在真实的体验和互动中发现乐趣。看见当下的人、回应当下的需要，常是你自然的行动方式。',core:'通过互动接触具体生活，重视人的体验，并愿意跟随现场变化。',strengths:'善于活跃参与气氛，注意他人的即时反应，并把关心变成看得见的行动。',blind:'为了当下的兴致或气氛，可能推迟处理不愉快的问题，也可能低估后续安排。',communication:'把热情与具体约定放在一起；遇到不舒服的事，尝试及时而温和地说明。',growth:['在临时改变安排前，检查已作出的承诺。','给一件长期想做的事设一个有趣、轻量的重复练习。']}
+ };
+ function validAnswer(a){return Number.isInteger(a)&&a>=-2&&a<=2;}
+ function score(answers){
+  if(!Array.isArray(answers)||answers.length!==48||!Array.from(answers).every(validAnswer))throw new Error('请先完成全部48道题。');
+  const values=dimensions.map(d=>{
+   let raw=0;questions.forEach((q,i)=>{if(q.dim===d.key)raw+=answers[i]*q.direction;});
+   const leftPercent=Math.round(50+raw/48*100),percent=raw>=0?leftPercent:100-leftPercent;
+   const exact=50+Math.abs(raw)/48*100;
+   return {...d,raw,leftPercent,percent,letter:d.key[raw>=0?0:1],tie:raw===0,strength:raw===0?'均衡':exact<60?'倾向较弱':exact<75?'有一定倾向':'倾向较明显'};
+  });
+  return {type:values.map(d=>d.letter).join(''),dimensions:values};
+ }
+ function evidence(answers,key){
+  return questions.map((q,index)=>({...q,index,answer:answers[index],contribution:answers[index]*q.direction,letter:q.dim[answers[index]*q.direction>=0?0:1]}))
+   .filter(q=>q.dim===key&&validAnswer(q.answer)&&q.answer!==0)
+   .sort((a,b)=>Math.abs(b.contribution)-Math.abs(a.contribution)||a.index-b.index).slice(0,2);
+ }
+ function restore(raw){
+  try{
+   const s=JSON.parse(raw);
+   if(!s||s.version!==1||!Array.isArray(s.answers)||s.answers.length!==48||!Array.from(s.answers).every(a=>a===null||validAnswer(a)))return null;
+   const first=s.answers.indexOf(null),upper=first===-1?47:first;
+   return {version:1,answers:s.answers,index:Number.isInteger(s.index)?Math.max(0,Math.min(upper,s.index)):upper,completed:s.completed===true&&first===-1};
+  }catch{return null;}
+ }
+ return {questions,dimensions,types,score,evidence,restore};
+})();
+</script>
+<script>
+(() => {
+ 'use strict';
+ const $=id=>document.getElementById(id),{questions,types,score,evidence,restore}=MBTI;
+ const KEY='inner-atlas-mbti-v1',labels=['非常不同意','比较不同意','不确定','比较同意','非常同意'];
+ let storageAvailable=true,state,view='home',lastResult=null,toastTimer;
+ const fresh=()=>({version:1,answers:Array(48).fill(null),index:0,completed:false});
+ try{state=restore(localStorage.getItem(KEY))||fresh();}catch{state=fresh();storageAvailable=false;}
+ function save(){try{localStorage.setItem(KEY,JSON.stringify(state));storageAvailable=true;}catch{storageAvailable=false;}updateSave();}
+ function updateSave(){$('save-message').textContent=storageAvailable?'进度已自动保存在此浏览器。':'浏览器未允许保存进度。可以继续作答，请在关闭页面前完成测试。';}
+ function showToast(message){clearTimeout(toastTimer);$('toast').textContent=message;$('toast').hidden=false;toastTimer=setTimeout(()=>$('toast').hidden=true,4200);}
+ function showPage(next){view=next;['home','quiz','result'].forEach(id=>$(id).hidden=id!==next);$('about').hidden=next!=='home';window.scrollTo({top:0,behavior:'instant'});$(next).classList.remove('page-reveal');void $(next).offsetWidth;$(next).classList.add('page-reveal');document.title=(next==='result'?'我的'+lastResult.type+'内在星图':next==='quiz'?'第'+(state.index+1)+'题 · 人格探索':'内在星图 · 48题人格探索');}
+ function home(){const count=state.answers.filter(a=>a!==null).length;$('start-btn').innerHTML=state.completed?'查看我的结果 <span aria-hidden="true">↗</span>':count?'继续探索 <span aria-hidden="true">↗</span>':'开始探索 <span aria-hidden="true">↗</span>';$('home-restart').hidden=!count;$('resume-note').hidden=!count;$('resume-note').textContent=state.completed?'上一次的星图已保存在此浏览器。':'已为你保留 '+count+' / 48 题的回答。';showPage('home');}
+ $('choices').innerHTML=labels.map((label,i)=>'<label class="choice"><input type="radio" name="answer" value="'+(i-2)+'"><span>'+label+'</span><span class="choice-key" aria-hidden="true">'+(i+1)+'</span></label>').join('');
+ const radios=Array.from(document.querySelectorAll('input[name="answer"]'));
+ function renderQuestion(focus=true){
+  const q=questions[state.index],count=state.answers.filter(a=>a!==null).length;
+  $('question-heading').textContent=q.text;$('question-number').textContent='第 '+(state.index+1)+' / 48 题';$('progress-text').textContent='已回答 '+count+' / 48';$('progress').value=count;
+  radios.forEach(r=>r.checked=state.answers[state.index]!==null&&Number(r.value)===state.answers[state.index]);
+  $('prev-btn').disabled=state.index===0;$('next-btn').disabled=state.answers[state.index]===null;$('next-btn').innerHTML=state.index===47?'查看我的星图 <span aria-hidden="true">✧</span>':'下一题 <span aria-hidden="true">→</span>';
+  updateSave();document.title='第'+(state.index+1)+'题 · 人格探索';if(focus)$('question-heading').focus({preventScroll:true});
+ }
+ function enterQuiz(){showPage('quiz');renderQuestion();}
+ function choose(value){state.answers[state.index]=value;state.completed=false;lastResult=null;save();$('progress').value=state.answers.filter(a=>a!==null).length;$('progress-text').textContent='已回答 '+$('progress').value+' / 48';$('next-btn').disabled=false;}
+ radios.forEach(r=>r.addEventListener('change',()=>choose(Number(r.value))));
+ $('next-btn').addEventListener('click',()=>{if(state.answers[state.index]===null)return;if(state.index<47){state.index++;save();renderQuestion();}else{state.completed=true;save();renderResult();}});
+ $('prev-btn').addEventListener('click',()=>{if(state.index>0){state.index--;save();renderQuestion();}});
+ document.addEventListener('keydown',e=>{if(view==='quiz'&&!$('restart-dialog').open&&!e.altKey&&!e.ctrlKey&&!e.metaKey&&/^[1-5]$/.test(e.key)){e.preventDefault();const r=radios[Number(e.key)-1];r.checked=true;r.focus();choose(Number(r.value));}});
+ function art(type){const variant=Object.keys(types).indexOf(type),rotation=variant*17;return '<svg class="portrait-art" viewBox="0 0 260 190" aria-hidden="true" fill="none"><ellipse cx="130" cy="98" rx="104" ry="57" stroke="#a98aba" stroke-width=".8" transform="rotate(-22 130 98)"/><circle cx="130" cy="95" r="75" stroke="#bba3ca" stroke-width=".8" stroke-dasharray="2 6"/><g transform="rotate('+rotation+' 130 95)"><path d="M130 27C150 27 153 63 158 69C165 70 199 61 207 81C214 102 177 112 173 118C170 125 184 157 165 168C148 180 130 146 123 144C115 144 89 167 73 151C57 135 87 112 87 104C85 96 53 79 65 60C77 42 109 64 116 61C124 56 111 28 130 27Z" fill="#cbb0df"/><path d="M130 44C150 67 147 82 130 95C149 94 164 85 186 87C169 102 151 106 130 95C143 113 147 128 155 148C134 138 126 117 130 95C112 109 96 124 86 133C88 109 109 95 130 95C110 89 92 77 84 68C106 65 120 79 130 95C116 76 126 60 130 44Z" fill="#edd2bf"/></g><path d="M130 75C130 88 137 95 150 95C137 95 130 102 130 115C130 102 123 95 110 95C123 95 130 88 130 75Z" fill="white"/><circle cx="34" cy="130" r="3" fill="#89679e"/><circle cx="222" cy="61" r="3" fill="#89679e"/><path d="M206 137V151M199 144H213" stroke="#9c744f" stroke-width="1.3"/></svg>';}
+ function renderResult(){
+  try{lastResult=score(state.answers);}catch(error){showToast(error.message);state.index=state.answers.indexOf(null);enterQuiz();return;}
+  const {type,dimensions}=lastResult,t=types[type],ties=dimensions.filter(d=>d.tie),weak=dimensions.filter(d=>d.strength==='倾向较弱');
+  $('portrait').innerHTML='<p class="eyebrow">此刻的参考类型</p><div class="type-code">'+type+'</div><h2>'+t.title+'</h2>'+art(type)+'<p class="portrait-summary">'+t.summary+'</p><div class="portrait-bottom"><span>内在星图</span><span>基于 48 题的偏好探索</span></div><small>用于自我探索，不是心理诊断。人格偏好可能随情境和时间变化。'+(ties.length?' '+ties.map(d=>d.key.split('').join('/')).join('、')+' 维度平分，代码仅作展示参考。':'')+'</small>';
+  $('balance-note').hidden=!ties.length&&!weak.length;
+  $('balance-note').textContent=(ties.length?'你的 '+ties.map(d=>d.key.split('').join('/')).join('、')+' 维度完全平分，没有明确方向。为展示类型解读，代码暂取 '+ties.map(d=>d.letter).join('、')+'，不代表已确定这些偏好。 ':'')+(weak.length?weak.map(d=>d.key.split('').join('/')).join('、')+' 的倾向较弱，建议同时阅读两侧说明。':'');
+  $('dimension-chart').innerHTML=dimensions.map(d=>'<div class="dimension" style="--tone:'+d.tone+';--tone-soft:'+d.soft+'"><div class="dim-top"><span class="dim-label"><b>'+d.key[0]+'</b> '+d.left+'</span><span class="dim-strength">'+d.strength+'</span><span class="dim-label">'+d.right+' <b>'+d.key[1]+'</b></span></div><div class="dim-bar" role="img" aria-label="'+d.name+'：'+d.left+' '+d.leftPercent+'%，'+d.right+' '+(100-d.leftPercent)+'%，'+d.strength+'"><div class="dim-fill" style="width:'+d.leftPercent+'%"></div></div><div class="dim-percent"><span>'+d.leftPercent+'%</span><span>'+d.name+'</span><span>'+(100-d.leftPercent)+'%</span></div></div>').join('');
+  $('why-content').innerHTML=dimensions.map(d=>{
+   const items=evidence(state.answers,d.key),sentence=d.tie?'你在这个维度的累加得分为 0，两侧各 50%，本次回答不足以判断更偏好哪一侧。'+(items.length?'各题的方向相互抵消，可以回顾下面的选择。':'你在这个维度的 12 道题均选择了“不确定”，因此没有可引用的方向性证据。'):'你在这个维度的 12 道题合计为 '+(d.raw>0?'+':'')+d.raw+' 分（范围 −24 至 +24），'+(d.raw>0?d.left:d.right)+'侧占 '+d.percent+'%，因此参考类型取 '+d.letter+'。'+(d.strength==='倾向较弱'?'双方得分接近，这只是轻微偏好。':'')+d.descriptions[d.raw>=0?0:1];
+   return '<article class="why-block"><h3>'+d.name+'：'+(d.tie?'两侧均衡':d.letter+' · '+(d.raw>=0?d.left:d.right))+'<span class="dim-strength">'+d.strength+'</span></h3><p>'+sentence+'</p>'+items.map(e=>'<figure class="evidence"><blockquote>第 '+(e.index+1)+' 题：“'+e.text+'”</blockquote><figcaption>你选择了“'+labels[e.answer+2]+'” · 这项回答计入 '+e.letter+' 侧</figcaption></figure>').join('')+(d.tie?'<p style="margin-top:12px">'+d.key[0]+' 侧：'+d.descriptions[0]+'<br>'+d.key[1]+' 侧：'+d.descriptions[1]+'</p>':'')+'</article>';
+  }).join('');
+  $('interpretation').innerHTML=[['核心特点',t.core],['常见优势',t.strengths],['可能的盲点',t.blind],['沟通方式',t.communication]].map(([title,content])=>'<div><h3>'+title+'</h3><p>'+content+'</p></div>').join('')+'<div class="wide"><h3>可以试试的成长练习</h3><ul class="growth-list">'+t.growth.map(g=>'<li>'+g+'</li>').join('')+'</ul></div>';
+  showPage('result');$('result-heading').focus({preventScroll:true});
+ }
+ function requestRestart(){$('restart-dialog').showModal();}
+ $('start-btn').addEventListener('click',()=>state.completed?renderResult():enterQuiz());
+ $('brand-home').addEventListener('click',e=>{e.preventDefault();home();});
+ ['home-restart','restart-btn'].forEach(id=>$(id).addEventListener('click',requestRestart));
+ $('cancel-restart').addEventListener('click',()=>$('restart-dialog').close());
+ $('confirm-restart').addEventListener('click',()=>{state=fresh();lastResult=null;save();$('restart-dialog').close();enterQuiz();});
+ $('review-btn').addEventListener('click',()=>{state.index=0;save();enterQuiz();});
+ $('about-btn').addEventListener('click',()=>{if(view!=='home')home();$('about').open=true;$('about').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});$('about').querySelector('summary').focus({preventScroll:true});});
+ $('print-btn').addEventListener('click',()=>window.print());
+ function roundedRect(ctx,x,y,w,h,r){ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fill();}
+ function wrapText(ctx,text,x,y,maxWidth,lineHeight){let line='';for(const ch of text){if(ctx.measureText(line+ch).width>maxWidth&&line){ctx.fillText(line,x,y);line=ch;y+=lineHeight;}else line+=ch;}if(line)ctx.fillText(line,x,y);return y+lineHeight;}
+ async function downloadCard(){
+  if(!lastResult)return;const btn=$('download-btn');btn.disabled=true;
+  try{
+   const {type,dimensions}=lastResult,t=types[type],canvas=document.createElement('canvas');canvas.width=1080;canvas.height=1560;const c=canvas.getContext('2d');
+   const gradient=c.createLinearGradient(0,0,1080,1560);gradient.addColorStop(0,'#eee5f8');gradient.addColorStop(1,'#fae5d5');c.fillStyle=gradient;c.fillRect(0,0,1080,1560);
+   c.fillStyle='#ffffff9c';roundedRect(c,58,58,964,1444,40);c.textAlign='center';c.fillStyle='#68509b';c.font='28px "Microsoft YaHei",sans-serif';c.fillText('内 在 星 图',540,135);
+   c.fillStyle='#6c657d';c.font='24px "Microsoft YaHei",sans-serif';c.fillText('此刻的参考类型',540,216);c.fillStyle='#4d386c';c.font='146px Georgia,serif';c.fillText(type,540,380);c.font='bold 43px "Microsoft YaHei",sans-serif';c.fillText(t.title,540,455);
+   c.strokeStyle='#c9b4db';c.lineWidth=2;c.beginPath();c.ellipse(540,605,155,65,-.3,0,Math.PI*2);c.stroke();c.fillStyle='#cbb0df';for(let i=0;i<5;i++){c.beginPath();c.ellipse(540+Math.sin(i*Math.PI*2/5)*44,605+Math.cos(i*Math.PI*2/5)*44,35,62,-i*Math.PI*2/5,0,Math.PI*2);c.fill();}c.fillStyle='#fff';c.beginPath();c.arc(540,605,18,0,Math.PI*2);c.fill();
+   c.textAlign='left';c.fillStyle='#594b68';c.font='28px "Microsoft YaHei",sans-serif';wrapText(c,t.summary,124,760,832,47);
+   dimensions.forEach((d,i)=>{const y=947+i*87;c.font='26px "Microsoft YaHei",sans-serif';c.fillStyle='#594b68';c.textAlign='left';c.fillText(d.key[0]+' '+d.left+' '+d.leftPercent+'%',124,y);c.textAlign='right';c.fillText((100-d.leftPercent)+'% '+d.right+' '+d.key[1],956,y);c.textAlign='center';c.font='21px "Microsoft YaHei",sans-serif';c.fillText(d.strength,540,y);c.fillStyle=d.soft;roundedRect(c,124,y+16,832,12,6);c.fillStyle=d.tone;if(d.leftPercent>0)roundedRect(c,124,y+16,832*d.leftPercent/100,12,6);});
+   c.fillStyle='#6c657d';c.textAlign='center';c.font='21px "Microsoft YaHei",sans-serif';c.fillText('基于 48 题的自我探索，不是心理诊断。',540,1366);c.fillText('人格偏好可能随情境和时间变化。',540,1403);if(dimensions.some(d=>d.tie)){c.font='19px "Microsoft YaHei",sans-serif';c.fillText('平分维度的类型字母仅用于展示参考。',540,1440);}
+   const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw new Error('生成图片失败');
+   const file=new File([blob],'内在星图-'+type+'.png',{type:'image/png'});
+   const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=file.name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);showToast('分享卡片已生成，请在浏览器下载列表中查看。');
+  }catch{showToast('暂时无法生成图片，可以使用“打印报告”保存 PDF。');}finally{btn.disabled=false;}
+ }
+ $('download-btn').addEventListener('click',downloadCard);
+ if(state.completed)renderResult();else home();
+})();
+</script>
+</body>
+</html>
